@@ -1,4 +1,4 @@
-@token = eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX0FETUlOIl0sInVzZXJJZCI6MSwiZW1haWwiOiJrYW1wYXJzZW5AeWFob28uY29tIiwic3ViIjoia2FtcGFyc2VuIiwiaWF0IjoxNzkwMzcwOTkzLCJleHAiOjE3OTA0NTczOTN9.QEPw2cVmtxJ6jaJJjHEgemzLQ9JuBSfThfdXKISMAA0
+@token = eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6W10sInVzZXJJZCI6MiwiZW1haWwiOiJrYW1wYXJzZW5AeWFob28uY29tIiwic3ViIjoia2FtcGFyc2VuIiwiaWF0IjoxNzkwNTYxODUyLCJleHAiOjE3OTA2NDgyNTJ9.tFx4syuJVUXDs7UXq2xOr4dv4IoJmCePs3pn9P4h_eU
 @accountId = 1
 
 ### GET request to example server
@@ -18,6 +18,17 @@ Content-Type: application/json
   "password": "Kk8084164",
   "email": "kamparsen@yahoo.com",
   "fullName": "Kam Parsen"
+}
+
+### Register new user
+POST http://localhost:8080/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "Rustin2",
+  "password": "Kk8084163",
+  "email": "rustin2@yahoo.com",
+  "fullName": "Rustin2 Parsen"
 }
 
 ### Register new user
